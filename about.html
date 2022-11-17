@@ -8,7 +8,6 @@
     <link rel="icon" type="image/png" sizes="105x72" href="assets/img/LOGO%20UNTITEL.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Roboto%20Condensed.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency-1.css">
     <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency.css">
     <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
@@ -32,12 +31,12 @@
 <body>
     <!-- Start: Navbar Centered Links -->
     <nav class="navbar navbar-dark navbar-expand-md sticky-top py-3" style="background: #6610f2;">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/LOGO%20UNTITEL.png" width="150%"></span><span style="color: rgba(255,255,255,0.9);font-weight: bold;font-size: 25px;">UNTITEL</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3" style="border-width: 2px;border-color: rgb(255,255,255);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-sm bs-icon-rounded d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/LOGO%20UNTITEL.png" width="150%"></span><span style="color: rgba(255,255,255,0.9);font-weight: bold;font-size: 25px;">UNTITEL</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3" style="border-width: 2px;border-color: rgb(255,255,255);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-3">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active" href="service.html" style="color: var(--bs-white);">SERVICE</a></li>
                     <li class="nav-item"><a class="nav-link active" href="about.html" style="color: var(--bs-white);">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="resourch.html" style="color: var(--bs-white);">RESOURCH</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portofolio.html" style="color: var(--bs-white);">PORTOFOLIO</a></li>
                 </ul><a class="btn" role="button" style="color: var(--bs-white);background: var(--bs-red);border-color: var(--bs-red);" href="contact.html">CONTACT US</a>
             </div>
         </div>
@@ -46,7 +45,9 @@
     <div class="container py-4 py-xl-5">
         <div class="row gy-4 gy-md-0">
             <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></div>
+                <div class="p-xl-5 m-xl-5">
+                    <lottie-player src="https://lottie.host/db11fc5b-77cc-4b71-a191-85a65868881d/Jr4qYe6lia.json" mode="normal" loop="" autoplay=""></lottie-player>
+                </div>
             </div>
             <div class="col-md-6 d-md-flex align-items-md-center">
                 <div style="max-width: 350px;">
@@ -92,31 +93,18 @@
             </div>
         </div><!-- End: Gallery Offset Grid -->
     </section><!-- End: gallery -->
-    <!-- Start: Hero Clean -->
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/WhatsApp%20Image%202022-08-26%20at%2012.12.36.jpeg"></div>
-            </div>
-            <div class="col-md-6 d-md-flex align-items-md-center">
-                <div style="max-width: 350px;">
-                    <div class="card mb-5">
-                        <div class="card-body p-sm-5">
-                            <h2 class="text-center mb-4">Contact us</h2>
-                            <form method="post" enctype="multipart/form-data" target="_blank">
-                                <!-- Start: Success Example -->
-                                <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name"></div><!-- End: Success Example -->
-                                <!-- Start: Error Example -->
-                                <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email"></div><!-- End: Error Example -->
-                                <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Message"></textarea></div>
-                                <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
-                            </form>
-                        </div>
-                    </div>
+    <!-- Start: Banner Color -->
+    <section class="py-4 py-xl-5">
+        <div class="container">
+            <div class="text-white border rounded border-0 d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5" data-aos="fade-right" data-aos-delay="200" style="background: linear-gradient(35deg, var(--bs-red) 0%, var(--bs-purple) 35%, var(--bs-indigo) 61%, var(--bs-blue) 100%), var(--bs-red);">
+                <div class="pb-2 pb-lg-1">
+                    <h2 class="text-uppercase fw-bold mb-2" data-aos="fade-right" data-aos-delay="300">lets talk your idea</h2>
+                    <p data-aos="fade-right" data-aos-delay="400" class="mb-0">for your website or project</p>
                 </div>
+                <div class="my-2"><a class="btn fs-5 py-2 px-4" role="button" data-bss-hover-animate="flash" href="contac t.html" style="background: #ff004c;color: var(--bs-white);">CONTACT</a></div>
             </div>
         </div>
-    </div><!-- End: Hero Clean -->
+    </section><!-- End: Banner Color -->
     <!-- Start: footer -->
     <section>
         <!-- Start: Footer Multi Column -->
@@ -143,17 +131,14 @@
                     <!-- Start: Social Icons -->
                     <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
                         <div class="fw-bold d-flex align-items-center mb-2"><span class="bs-icon-sm bs-icon-rounded d-flex justify-content-center align-items-center bs-icon me-2"><img src="assets/img/LOGO%20UNTITEL.png" width="150%"></span><span style="font-weight: bold;color: var(--bs-white);">UNTITEL</span></div>
-                        <p class="text-light copyright">Sem eleifend donec molestie, integer quisque orci aliquam.</p>
+                        <p class="text-light copyright">We are here to make your work process easier.</p>
                     </div><!-- End: Social Icons -->
-                </div>
-                <hr style="background: var(--bs-white);height: 5px;">
-                <div class="d-flex justify-content-between align-items-center pt-3">
-                    <p class="text-light mb-0" style="font-size: 10px;">lottie animation by&nbsp;<a href="https://iconscout.com/contributors/nanoagency/lotties" target="_blank"><span style="text-decoration: underline;">nanoagency</span></a></p>
                 </div>
             </div>
         </footer><!-- End: Footer Multi Column -->
     </section><!-- End: footer -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/lottie-player.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/-Filterable-Cards-.js"></script>
